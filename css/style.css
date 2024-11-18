@@ -61,3 +61,37 @@ section{
   z-index: 1000;
   background-color: var(--black);
 }
+
+.header .flex{
+  padding: 2.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .flex .logo{
+  color: var(--main-color);
+  font-size: 2.5rem;
+}
+
+.header .flex .navbar a{
+  margin: 0 1rem;
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.header .flex .navbar a:hover{
+  color: var(--white)
+}
+
+.header .flex input[type="checkbox"]{
+  display: none;
+}
+
+.header .flex .icons a,
+.header .flex .icons label{
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
+  color: var(--white)
+}
