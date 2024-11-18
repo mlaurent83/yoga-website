@@ -4,6 +4,16 @@
 /*Google Font cdn link */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+:root{
+  --main-color: #819D86;
+  --black: #222;
+  --white: #fff;
+  --light-color: #888;
+  --light-bg: #eee;
+  --box-shadow:0 .5rem 1rem rgba(0,0,0, .1);
+  --border: .1rem solid rgba(0,0,0,.2);
+}
+
 *{
   font-family: "Nunito", sans-serif;
 };
