@@ -144,6 +144,10 @@ section{
   color: var(--white);
 }
 
+.btn:hover{
+  background-color: var(--black);
+}
+
 
 
 
