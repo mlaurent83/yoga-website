@@ -75,6 +75,28 @@ section{
   background-color: var(--black);
 }
 
+.header::before{
+  content: "";
+  position: absolute;
+  bottom: -1rem; left: 0;
+  height: 1rem;
+  background-color: var(--main-color);
+  width: 0%;
+  z-index: 1;
+  animation: scrollIndicator linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scrollIndicator {
+  to{
+    width: 100%;
+  }
+}
+
+body{
+  height: 500px;
+}
+
 .header .flex{
   padding: 2.5rem 2rem;
   display: flex;
