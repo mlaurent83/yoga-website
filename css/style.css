@@ -26,6 +26,11 @@
   transition: .2s linear;
 }
 
+#loom-companion-mv3 {
+  display: none !important;
+}
+
+
 html {
  font-size: 62.5%;
  overflow-x: hidden;
@@ -123,6 +128,7 @@ section{
   align-items: center;
   text-align: center;
 }
+
 
 
 
