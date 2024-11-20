@@ -197,6 +197,22 @@ body{
   border-radius: .5rem;
   border: var(--border);
   box-shadow: var(--box-shadow);
+  margin-left: -5rem;
+  background-color: var(--white);
+}
+
+.about .row .content h3 {
+  font-size: clamp(2rem, 3rem, 4rem);
+  color: var(--main-color);
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.about .row .content p {
+  line-height: 1.8;
+  font-size: 1.6rem;
+  color: var(--light-color);
+  padding: 1rem 0;
 }
 
 
