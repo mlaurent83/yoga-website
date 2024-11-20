@@ -38,6 +38,8 @@ html {
  scroll-padding-top: 9rem;
 }
 
+/* home section starts */
+
 ::-webkit-scrollbar{
   width: 1rem;
 }
@@ -171,7 +173,11 @@ body{
 }
 
 
+/* home section ends */
 
+/* about section starts */
+
+/* about section ends */
 
 /* media queries */
 
