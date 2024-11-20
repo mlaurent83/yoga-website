@@ -204,7 +204,7 @@ body{
 .about .row .content h3 {
   font-size: clamp(2rem, 3rem, 4rem);
   color: var(--main-color);
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   font-weight: normal;
 }
 
@@ -212,7 +212,7 @@ body{
   line-height: 1.8;
   font-size: 1.6rem;
   color: var(--light-color);
-  padding: 1rem 0;
+  padding: .5rem 0;
 }
 
 
