@@ -215,6 +215,29 @@ body{
   padding: .5rem 0;
 }
 
+.about .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 27rem);
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.about .box-container .box{
+  text-align: center;
+}
+
+.about .box-container .box img{
+  height: 15rem;
+  margin-bottom: 2rem;
+}
+
+.about .box-container .box p{
+  color: var(--light-color);
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
 
 /* about section ends */
 
