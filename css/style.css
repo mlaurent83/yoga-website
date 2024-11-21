@@ -279,6 +279,28 @@ body{
   color: var(--black);
 }
 
+.services .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem
+}
+
+.services .box-container .box{
+  flex: 1 1 40rem;
+  padding: 1rem;
+}
+
+.services .box-container .box:nth-child(odd){
+  text-align: right;
+}
+
+.services .box-container .box img{
+  height: 20rem;
+  margin-bottom: 1rem;
+}
+
 /* media queries */
 
 @media (max-width:991px){
