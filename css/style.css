@@ -246,6 +246,30 @@ body{
 
 /* about section ends */
 
+.heading{
+  text-align: center;
+  font-size: 3.5rem;
+  color: var(--black);
+  margin-bottom: 2rem;
+}
+
+.classes .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.classes .box-container .box{
+  text-align: center;
+}
+
+.classes .box-container .box img {
+  height: 25rem;
+}
+
 /* media queries */
 
 @media (max-width:991px){
