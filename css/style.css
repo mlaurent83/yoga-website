@@ -301,6 +301,26 @@ body{
   margin-bottom: 1rem;
 }
 
+.services .box-container .box:hover img {
+  transform: translateY(-1rem);
+}
+
+.services .box-container .box h3{
+  font-size: 2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.services .box-container .box:hover h3{
+  color: var(--main-color)
+}
+
+.services .box-container .box p{
+  line-height: 1.8;
+  font-size: 1.8rem;
+  color: var(--light-color)
+}
+
 /* media queries */
 
 @media (max-width:991px){
