@@ -398,7 +398,7 @@ body{
 
 .reviews .row{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -438,9 +438,33 @@ body{
   background: var(--light-bg)
 }
 
+.reviews .row .content .controls label:hover{
+  background-color: var(--light-color)
+}
+
+
 .reviews .row .box-container{
   flex: 1 1 40rem;
+  width: 50rem;
+  border-radius: .5rem;
+  overflow: hidden;
+  display: flex;
 }
+
+.reviews .row .box-container .box{
+  flex: 1 0 100%;
+  text-align: center;
+  background: var(--light-bg);
+  padding: 3rem 2rem;
+}
+
+.reviews .row .box-container .box img{
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 
 
 
