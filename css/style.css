@@ -381,11 +381,51 @@ body{
 }
 
 
-
-
 .prices{
   background: var(--light-bg);
 }
+
+.reviews input[type="radio"]{
+  display: none;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+
+.reviews .row{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.reviews .row .content {
+  flex: 1 1 40%;
+  max-width: 40rem;
+}
+
+.reviews .row .content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--black)
+}
+
+.reviews .row .content p{
+  line-height: 1.8;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.reviews .row .box-container{
+  flex: 1 1 40rem;
+}
+
+
+
+
 /* media queries */
 
 @media (max-width:991px){
