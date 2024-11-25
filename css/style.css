@@ -506,6 +506,12 @@ body{
   margin-left: -300%;
 }
 
+#r1:checked ~ .row .content .controls label:nth-child(1),
+#r2:checked ~ .row .content .controls label:nth-child(2),
+#r3:checked ~ .row .content .controls label:nth-child(3),
+#r4:checked ~ .row .content .controls label:nth-child(4){
+  background-color: var(--black);
+}
 
 
 
