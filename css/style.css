@@ -455,15 +455,40 @@ body{
   flex: 1 0 100%;
   text-align: center;
   background: var(--light-bg);
+  user-select: none;
   padding: 3rem 2rem;
 }
 
 .reviews .row .box-container .box img{
-  height: 15rem;
-  width: 15rem;
+  height: 10rem;
+  width: 10rem;
   object-fit: cover;
+  margin-bottom: 1rem;
   border-radius: 50%;
 }
+
+
+.reviews .row .box-container .box h3{
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.reviews .row .box-container .box p{
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+
+.reviews .row .box-container .box .stars{
+  margin-top: .5rem;
+}
+
+.reviews .row .box-container .box .stars i{
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+
 
 
 
