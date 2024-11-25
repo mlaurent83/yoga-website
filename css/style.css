@@ -457,6 +457,7 @@ body{
   background: var(--light-bg);
   user-select: none;
   padding: 3rem 2rem;
+  border-radius: .5rem;
 }
 
 .reviews .row .box-container .box img{
@@ -489,7 +490,21 @@ body{
   color: var(--main-color);
 }
 
+#r1:checked ~ .row .box-container .box:first-child{
+  margin-left: 0%;
+}
 
+#r2:checked ~ .row .box-container .box:first-child{
+  margin-left: -100%;
+}
+
+#r3:checked ~ .row .box-container .box:first-child{
+  margin-left: -200%;
+}
+
+#r4:checked ~ .row .box-container .box:first-child{
+  margin-left: -300%;
+}
 
 
 
