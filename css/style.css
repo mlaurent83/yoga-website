@@ -419,6 +419,25 @@ body{
   color: var(--light-color);
 }
 
+.reviews .row .content img{
+  height: 100px;
+  width: 100px
+}
+
+.reviews .row .content .controls{
+  text-align: center;
+}
+
+.reviews .row .content .controls label{
+  display: inline-block;
+  margin: 0 .5rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--light-bg)
+}
+
 .reviews .row .box-container{
   flex: 1 1 40rem;
 }
