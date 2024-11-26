@@ -532,12 +532,15 @@ body{
   flex: 1 1 40rem;
 }
 
-.book .row .form .flew{
+.book .row .form .flex{
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
+.book .row .form .flex .input{
+  flex: 1 1 20rem;
+}
 
 
 
