@@ -542,6 +542,28 @@ body{
   flex: 1 1 20rem;
 }
 
+.book .row .form p{
+  font-size: 1.6rem;
+  color: var(--light-color);
+  padding-bottom: 1rem;
+}
+
+.book .row .form input,
+.book .row .form textarea{
+  width: 100%;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+  color: var(--black);
+  text-transform: none;
+  border: var(--border);
+  background: var(--light-bg);
+  padding: 1rem 1.4rem;
+}
+
+
+
+
+
 
 
 
