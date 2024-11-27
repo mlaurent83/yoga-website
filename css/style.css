@@ -574,6 +574,17 @@ body:has(#themeToggler:checked).book .row .form .flex .input input::-webkit-cale
   filter: invert(1)
 }
 
+.blogs .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+
+
+
 
 
 
