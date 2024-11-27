@@ -582,6 +582,19 @@ body:has(#themeToggler:checked).book .row .form .flex .input input::-webkit-cale
   gap: 2rem;
 }
 
+.blogs .box-container .box .image{
+  height: 40rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: .5rem;
+}
+
+.blogs .box-container .box .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 
 
 
