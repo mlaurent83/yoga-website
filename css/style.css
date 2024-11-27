@@ -593,11 +593,38 @@ body:has(#themeToggler:checked).book .row .form .flex .input input::-webkit-cale
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
+.blogs .box-container .box .image .info{
+  position: absolute;
+  bottom: 1.5rem; left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  background-color: var(--white);
+  border-radius: .5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.blogs .box-container .box .image .info a{
+  font-size: 1.6rem;
+}
 
+.blogs .box-container .box .image .info a i{
+  color: var(--main-color);
+  margin-right: .5rem;
+}
 
+.blogs .box-container .box .image .info a span{
+  color: var(--light-color);
+}
+
+.blogs .box-container .box .image .info a:hover span{
+  color: var(--black);
+}
 
 
 
