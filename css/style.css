@@ -679,6 +679,15 @@ body:has(#themeToggler:checked).book .row .form .flex .input input::-webkit-cale
   color: var(--light-color);
 }
 
+@keyframes slide{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
 
 
 
