@@ -679,6 +679,10 @@ body:has(#themeToggler:checked).book .row .form .flex .input input::-webkit-cale
   color: var(--light-color);
 }
 
+.scroll-slide:hover .row .col {
+  animation-play-state: paused;
+}
+
 @keyframes slide{
   from{
     transform: translateX(0);
