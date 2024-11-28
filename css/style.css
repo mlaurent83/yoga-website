@@ -692,6 +692,48 @@ body:has(#themeToggler:checked).book .row .form .flex .input input::-webkit-cale
   }
 }
 
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer .box-container .box{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--black);
+}
+
+.footer .box-container a {
+  display: block;
+  font-size: 1.8rem;
+  padding: .5rem 0;
+  color: var(--light-color);
+}
+
+.footer .box-container a i{
+  margin-right: 1rem;
+  color: var(--main-color);
+}
+
+.footer .box-container a:hover i{
+  margin-right: 2rem;
+}
+
+.footer .credit{
+  text-align: center;
+  padding: 3rem 2rem;
+  border-top: var(--border);
+  background-color: var(--light-bg);
+  font-size: 2rem;
+  color: var(--light-color)
+}
+
+.footer .credit span{
+  color: var(--black);
+}
 
 
 
