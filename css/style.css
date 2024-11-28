@@ -649,6 +649,35 @@ body:has(#themeToggler:checked).book .row .form .flex .input input::-webkit-cale
   padding: 1rem 0;
 }
 
+.scroll-slide{
+  background-color: var(--light-bg);
+  white-space: nowrap;
+}
+
+.scroll-slide .row{
+  overflow: hidden;
+}
+
+.scroll-slide .row .col{
+  display: inline-block;
+  animation: slide 20s linear infinite;
+}
+
+.scroll-slide .row .col p{
+  display: inline-block;
+  font-size: 2.5rem;
+  color: var(--light-color);
+}
+
+.scroll-slide .row .col p:hover{
+  color: var(--black)
+}
+
+.scroll-slide .row .col i{
+  font-size: 2rem;
+  margin: 0 1.5rem;
+  color: var(--light-color);
+}
 
 
 
